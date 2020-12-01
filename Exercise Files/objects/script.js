@@ -1,9 +1,6 @@
-var course = new Object();
-
 var course = {
-    title: "JavaScript Essential Training",
-    instructor: "Morten Rand-Hendriksen",
-    level: 1,
+    title: "JavaScript Practice",
+    level: 2,
     published: true,
     views: 0,
     updateViews: function() {
@@ -12,3 +9,4 @@ var course = {
 }
 
 console.log(course);
+course.updateViews();
